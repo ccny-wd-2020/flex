@@ -1,0 +1,30 @@
+/*
+  Move the gridding to flex
+*/
+
+.grid-container-4-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid-container-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  border: solid;
+  height: 150px;
+  width: 150px;
+  background-color: burlywood;
+}
+
+@media (max-width: 700px) {
+  .grid-container-4-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
