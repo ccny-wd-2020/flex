@@ -1,0 +1,42 @@
+.grid-container-4-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  /* set the grid-column-gap to make up for the change in display */
+  grid-column-gap: 60px;
+}
+
+.grid-container-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  border: solid;
+  height: 150px;
+  width: 150px;
+  background-color: burlywood;
+  padding: 20px;
+  margin: 20px;
+}
+
+.flex-wrapper {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-direction: column;
+  flex-flow: row wrap;
+
+  /* Then we define how it is distributed around the remaining space */
+  /* justify-content: space-around; */
+
+  padding: 0;
+  margin: 0;
+}

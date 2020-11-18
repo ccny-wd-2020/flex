@@ -1,0 +1,12 @@
+1. Set up an amazon type page that has items and their price (at least 8 items)
+2. When the browser is above a size of 1200px
+  - have your items with a display of grid
+3. When the browser is below 1200px and above 900px
+  - keep your display at grid
+  - lower the amount of columns
+4. When your browser size is below 900px
+  - change the display to flex
+  - move all of the content to the center
+5. Change the order of the items when the flex gets to the point where its only showing one item per row
+   I didn't go over this, but it should be self-explanatory.
+   The syntax is in the flexbox lesson: https://github.com/ccny-wd-2020/flex/blob/master/lesson/index.css#L119
